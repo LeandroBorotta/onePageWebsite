@@ -83,7 +83,7 @@ nav li a:hover{
 }
 .home{
     height: calc(100vh - 100px);
-    background-image: url(../assets/images/fundo-de-viagens-doodle_23-2148044879.avif);
+    background-image: url(../assets../images/fundo-de-viagens-doodle_23-2148044879.avif);
     background-position: center;
     display: flex;
     align-items:start;
