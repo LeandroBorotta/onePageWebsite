@@ -3,10 +3,10 @@ function showMenu(){
 
     if(menu.classList.contains('open')){
         menu.classList.remove('open')
-        document.querySelector('.mobile-menu-img img').src = '/assets/images/menu.png'
+        document.querySelector('.mobile-menu-img img').src = 'assets/images/menu.png'
     } else{
         menu.classList.add('open')
-        document.querySelector('.mobile-menu-img img').src = '/assets/images/close.png'
+        document.querySelector('.mobile-menu-img img').src = 'assets/images/close.png'
     }
     
 }
