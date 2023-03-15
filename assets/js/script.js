@@ -21,3 +21,28 @@ function readMore(){
     }
     console.log(pMore)
 }
+
+function changeSlider(){
+    const checked = document.querySelectorAll('.bar')
+
+    checked.forEach(checar =>{
+        checar.addEventListener('click' ,()=>{
+         const checkedButton = document.querySelector(".checked");
+         checkedButton.classList.remove("checked");
+         checar.classList.add('checked') 
+
+         if(document.querySelector('#bar1').classList.contains('checked')){
+            document.querySelector('.places-slider').style.marginLeft = '200%'
+        } else if(document.querySelector('#bar2').classList.contains('checked')){
+            document.querySelector('.places-slider').style.marginLeft = '0%'
+        } else if(document.querySelector('#bar3').classList.contains('checked')){
+            document.querySelector('.places-slider').style.marginLeft = '-200%'
+        } 
+        })
+    })
+   
+ }
+
+changeSlider()
+
+

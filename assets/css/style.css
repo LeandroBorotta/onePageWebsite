@@ -134,8 +134,9 @@ nav li a:hover{
 
 .features{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
+
 }
 .content1-feature{
     display: grid;
@@ -168,7 +169,7 @@ nav li a:hover{
     color: white;
 }
 .content2--content{
-    height: 300px;
+    min-height: 300px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -189,12 +190,71 @@ nav li a:hover{
     text-transform: uppercase;
     cursor: pointer;
 }
-/* Price*/
+/* Place*/
 
 
+.placesTravel{
+    background-color: #334;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-places{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    background-color: aqua;
+    box-shadow: 10px 10px 10px 3px;
+}
+.places-slider{
+    width: 300%;
+    height: 100%;
+    display: flex;
+    transition: all ease 0.3s;
+}
 
+.slide-card{
+    background-color: white;
+    width: 100%;
+    height: inherit;
 
-
+}
+.slide-card2{
+    background-color: pink;
+    width: 100%;
+    height: inherit;
+}
+.slide-card3{
+    background-color: red;
+    width: 100%;
+    height: inherit;
+}
+.places-navegation{
+    margin: 10px 0;
+    display: flex;
+}
+.bar{
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 6px;
+    cursor: pointer;
+    transform: .5s ease;
+}
+.bar:hover,
+.checked{
+    background-color: white;
+}
+.placesTravel input{
+    display: none;
+}
 
 
 
