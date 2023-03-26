@@ -220,18 +220,28 @@ nav li a:hover{
 }
 
 .slide-card{
-    background-color: white;
+    background-image: url(../images/rio.jpg);
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: inherit;
 
 }
+.slide-card-content{
+    text-align: center;
+    margin-top: 10px;
+}
 .slide-card2{
-    background-color: pink;
+    background-image: url(../images/italia.jpg);
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: inherit;
 }
 .slide-card3{
-    background-color: red;
+    background-image: url(../images/grecia.avif);
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: inherit;
 }
