@@ -267,6 +267,53 @@ nav li a:hover{
 }
 
 
+/* Section TEAM  */
+
+.team{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.team h2{
+    background-color: #334;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+.team-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.person{
+    width: 30%;
+    height: 80%;
+    margin: 10px;
+    background-color: #334;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.person img{
+    width: 40%;
+    margin-bottom: 10px;
+}
+.person span{
+    color: yellow;
+}
+
+footer{
+    background-color: #334;
+    color: white;
+    text-align: center;
+}
+
 
 @media (min-width: 300px) and (max-width: 380px){
     nav ul{
@@ -350,6 +397,31 @@ nav li a:hover{
     }
     .content2--content{
         padding: 10px;
+    }
+     
+    /* Team*/
+
+    .team-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+    }
+    .person{
+        width: 80%;
+        height: 80%;
+        margin: 10px;
+        background-color: #334;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .person img{
+        width: 40%;
+        margin-bottom: 10px;
     }
 }
 
@@ -437,6 +509,31 @@ nav li a:hover{
         font-size: 18px;
         text-transform: uppercase;
         cursor: pointer;
+    }
+
+    /* Team*/
+
+    .team-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+    }
+    .person{
+        width: 80%;
+        height: 80%;
+        margin: 10px;
+        background-color: #334;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .person img{
+        width: 40%;
+        margin-bottom: 10px;
     }
 }
 
